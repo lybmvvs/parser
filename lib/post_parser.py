@@ -61,3 +61,4 @@ def frame_creation(list_3):
         lambda x:
         x['Date'][0:2] + ' ' + x['Date'][2:5] + ' ' + x['Date'][5:9] if type(x['Date']) == str
         else x['Date'], axis=1)
+    return final_data
