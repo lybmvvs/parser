@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
+import copy
 
-def frame_creation(virgin_file):
-    wow = to_normal_view(virgin_file)
+def frame_creation(list_3):
+    wow = copy.deepcopy(list_3)
     not_splitted_yet_data = []
     for i in wow:
         for j in i:
