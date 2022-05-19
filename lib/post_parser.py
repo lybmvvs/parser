@@ -24,7 +24,7 @@ def frame_creation(list_3):
         splitted_data.append(i.split())
     for i in splitted_data:
         if 'LGR1' not in i:
-            i.insert(2, '')
+            i.insert(2, 'none')
     final_data = pd.DataFrame()
     for i in splitted_data:
         final_data = final_data.append([i])
