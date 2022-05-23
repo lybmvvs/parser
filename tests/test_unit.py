@@ -5,11 +5,12 @@ from lib.pre_parser import probels_clearing
 from lib.pre_parser import to_normal_view
 from lib.post_parser import frame_creation
 
+
 class Test_clear_of_rubbish:
     @pytest.fixture
     def test_first_func(self):
 
-        self.input_file = 'test_input/test_schedule.inc'
+        self.input_file = "test_input/test_schedule.inc"
 
         self.parsing_result = ['COMPDAT',
                     '',
