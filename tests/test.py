@@ -42,5 +42,6 @@ class TestLineParsersUnit:
              np.nan, np.nan]]
 
     def test_parser_result(self, test_parser_data):
+        print('sth')
 
         assert to_pars(self.input_file).values.tolist() == self.parsing_result
